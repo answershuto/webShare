@@ -97,3 +97,67 @@
     background-color: red;
 }
 ```
+
+[Demo](../examples/CSS常见布局/demo5.html)
+
+## 垂直居中
+
+### 使用vertical-align
+
+```css
+.container{
+    display: table-cell;
+    vertical-align: middle;
+}
+```
+
+注意要设置height或者line-height。
+
+[Demo](../examples/CSS常见布局/demo6.html)
+
+或者
+
+```css
+.container{
+    display:inline-block;
+    vertical-align: middle;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo7.html)
+
+### 绝对定位
+
+```css
+.container{
+    height: 500px;
+    position:relative;
+}
+.ele{
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+}
+```
+
+当然height的一半也可以用
+
+```css
+    transform:translate(0,-50%);
+```
+
+来替代。
+
+[Demo](../examples/CSS常见布局/demo8.html)
+
+### 使用flex布局实现
+
+```css
+    .container{
+        display: flex;
+        align-items: center;
+    }
+```
+
+[Demo](../examples/CSS常见布局/demo9.html)
