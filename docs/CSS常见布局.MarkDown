@@ -144,7 +144,7 @@
 当然height的一半也可以用
 
 ```css
-    transform:translate(0,-50%);
+transform:translate(0,-50%);
 ```
 
 来替代。
@@ -154,10 +154,10 @@
 ### 使用flex布局实现
 
 ```css
-    .container{
-        display: flex;
-        align-items: center;
-    }
+.container{
+    display: flex;
+    align-items: center;
+}
 ```
 
 [Demo](../examples/CSS常见布局/demo9.html)
