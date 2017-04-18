@@ -161,3 +161,69 @@ transform:translate(0,-50%);
 ```
 
 [Demo](../examples/CSS常见布局/demo9.html)
+
+## 水平垂直居中
+
+### 使用flex布局
+
+利用flex布局的justify-content以及align-items修改弹性盒子纵向以及横向的对其位置，使子元素在纵向以及横向位置都以正中位置对其。
+
+```css
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo10.html)
+
+### 使用绝对定位
+
+使用绝对定位设置top以及left为50%，然后将宽度以及高度的一半“拉”回来。
+
+```css
+.container{
+    position: relative;
+}
+.ele{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+```
+
+[Demo](../examples/CSS常见布局/demo11.html)
+
+如果宽度高度指定的时候也可以通过设置负的margin来实现。
+
+```css
+.container{
+    position: relative;
+}
+.ele{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+```
+
+## 利用vertical-align,text-align,inline-block实现
+
+```css
+.container{
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.ele{
+    display: inline-block;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo12.html)
