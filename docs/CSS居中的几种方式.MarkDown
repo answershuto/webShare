@@ -11,7 +11,7 @@
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo1.html)
+[Demo](../examples/CSS居中的几种方式/demo1.html)
 
 ### 使用table实现
 
@@ -27,7 +27,7 @@
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo2.html)
+[Demo](../examples/CSS居中的几种方式/demo2.html)
 
 ### 使用margin: 0 auto实现
 
@@ -42,7 +42,7 @@
     margin: 0 auto;
 }
 ```
-[Demo](../examples/CSS常见布局/demo3.html)
+[Demo](../examples/CSS居中的几种方式/demo3.html)
 
 ### 使用flex布局实现
 
@@ -64,7 +64,7 @@
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo4.html)
+[Demo](../examples/CSS居中的几种方式/demo4.html)
 
 ### 绝对定位
 
@@ -98,7 +98,7 @@
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo5.html)
+[Demo](../examples/CSS居中的几种方式/demo5.html)
 
 ## 垂直居中
 
@@ -113,7 +113,7 @@
 
 注意要设置height或者line-height。
 
-[Demo](../examples/CSS常见布局/demo6.html)
+[Demo](../examples/CSS居中的几种方式/demo6.html)
 
 或者
 
@@ -124,7 +124,7 @@
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo7.html)
+[Demo](../examples/CSS居中的几种方式/demo7.html)
 
 ### 绝对定位
 
@@ -149,7 +149,7 @@ transform:translate(0,-50%);
 
 来替代。
 
-[Demo](../examples/CSS常见布局/demo8.html)
+[Demo](../examples/CSS居中的几种方式/demo8.html)
 
 ### 使用flex布局实现
 
@@ -160,7 +160,7 @@ transform:translate(0,-50%);
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo9.html)
+[Demo](../examples/CSS居中的几种方式/demo9.html)
 
 ## 水平垂直居中
 
@@ -176,7 +176,7 @@ transform:translate(0,-50%);
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo10.html)
+[Demo](../examples/CSS居中的几种方式/demo10.html)
 
 ### 使用绝对定位
 
@@ -194,7 +194,7 @@ transform:translate(0,-50%);
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo11.html)
+[Demo](../examples/CSS居中的几种方式/demo11.html)
 
 如果宽度高度指定的时候也可以通过设置负的margin来实现。
 
@@ -226,4 +226,4 @@ transform:translate(0,-50%);
 }
 ```
 
-[Demo](../examples/CSS常见布局/demo12.html)
+[Demo](../examples/CSS居中的几种方式/demo12.html)
