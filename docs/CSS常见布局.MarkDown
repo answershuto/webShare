@@ -113,3 +113,162 @@
     display: table-cell;
 }
 ```
+
+[Demo](../examples/CSS常见布局/demo7.html)
+
+## 两侧固定宽度，中间自适应
+
+### 使用flex布局
+
+```css
+.container{
+    display: flex;
+}
+.l{
+    width: 100px;
+}
+.c{
+    flex: 1;
+}
+.r{
+    width: 100px;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo8.html)
+
+### 使用float以及margin布局
+
+```css
+ .container{
+            
+}
+.l{
+    float: left;
+    width: 100px;
+}
+.c{
+    float: left;
+    margin-right: -200px;
+    width: 100%;
+}
+.r{
+    float: left;
+    width: 100px;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo9.html)
+
+### 使用table布局
+
+```css
+.container{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.l{
+    width: 100px;
+}
+.r{
+    width: 100px;
+}
+.l, .r, .c{
+    display: table-cell;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo10.html)
+
+## 左列不定宽，右列自适应
+
+### 利用flex实现
+
+```css
+.container{
+    display: flex;
+}
+.r{
+    flex: 1;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo11.html)
+
+### 利用table实现
+
+```css
+.container{
+    display: table;
+}
+.l{
+    background-color: red;
+    width: 1%;
+}
+.r{
+    background-color: gainsboro;
+}
+.l, .r{
+    display: table-cell;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo12.html)
+
+### 利用float实现
+
+左侧元素浮动，右侧元素通过overflow形成BFC。
+
+```css
+.l{
+    float: left;
+    background-color: blanchedalmond;
+}
+.r{
+    overflow: hidden;
+    background-color: red;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo13.html)
+
+## 多列等分布局
+
+### 利用flex实现
+
+```css
+.container{
+    display: flex;
+}
+.ele{
+    flex: 1;
+}
+```
+[Demo](../examples/CSS常见布局/demo14.html)
+
+### 利用float实现
+
+```css
+.ele{
+    float: left;
+    width: 25%;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo15.html)
+
+### 利用table实现
+
+```css
+.container{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.ele{
+    display: table-cell;
+}
+```
+
+[Demo](../examples/CSS常见布局/demo16.html)
