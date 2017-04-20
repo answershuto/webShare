@@ -33,5 +33,7 @@
 
 [用meta标签使HTML5页面自适应设备宽度，并禁止缩放](./docs/用meta标签使HTML5页面自适应设备宽度，并禁止缩放.MarkDown)
 
+[用meta标签防止将页面中的数字识别为电话号码](./docs/用meta标签防止将页面中的数字识别为电话号码.MarkDown)
+
 <br />
 <br />
